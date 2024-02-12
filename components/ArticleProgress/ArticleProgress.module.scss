@@ -1,0 +1,21 @@
+.articleProgress {
+  background-color: #f4f4f4;
+  height: 4px;
+  width: 100%;
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -8px;
+  z-index: 1;
+}
+
+.articleProgressFilled {
+  background-color: #2c3573;
+  width: 20%;
+  height: 4px;
+
+  transition: all 0.3s ease;
+}

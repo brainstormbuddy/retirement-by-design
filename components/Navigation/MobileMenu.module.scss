@@ -1,0 +1,72 @@
+.mobileMenuContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 48px;
+
+  @media (min-width: 900px) {
+    padding-left: 64px;
+    padding-top: 112px;
+  }
+}
+
+.mobileMenuSectionHeading {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #c5b050;
+
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.mobileMenuSectionLinks {
+  a {
+    display: block;
+    color: #fff;
+    font-family: 'LeMondeCourrierDemi', serif;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 38px;
+    margin-top: 16px;
+    margin-bottom: 0;
+
+    @media (min-width: 900px) {
+      font-size: 48px;
+      margin-bottom: 32px;
+    }
+  }
+
+  a:first-child {
+    margin-top: 0;
+  }
+
+  a:last-child {
+    margin-bottom: 48px;
+  }
+}
+
+.mobileMenuSectionLinksSmall {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  a {
+    font-size: 24px;
+    letter-spacing: 0;
+
+    @media (min-width: 900px) {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+  }
+
+  div {
+    &:first-child {
+      width: 190px;
+    }
+  }
+}

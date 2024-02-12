@@ -1,0 +1,267 @@
+.upcomingWorkshop {
+  margin-top: 48px;
+}
+
+.browseLink {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: left;
+
+  font-size: 18px;
+
+  &.browseLinkCentered {
+    text-align: center;
+    justify-content: center;
+  }
+
+  span {
+    position: relative;
+    font-size: 18px;
+    color: #2c3573;
+
+    &:after {
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      content: ' ';
+      width: 100%;
+      height: 2px;
+      background-color: #2c3573;
+      position: absolute;
+    }
+  }
+
+  svg {
+    margin-left: 16px;
+    color: #2c3573;
+  }
+}
+
+.articleType {
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.articleHeader {
+  padding: 40px 0 0px;
+  background-color: #202d40;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  &.articleHeaderWhite {
+    h1,
+    h2,
+    p {
+      color: #fff;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    padding-top: 80px;
+    // padding-bottom: 100px;
+    // margin-bottom: 50px;
+  }
+}
+
+p.articleType {
+  text-align: center;
+  color: #c5b050 !important;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.articlePublished {
+  font-size: 18px;
+  letter-spacing: 0;
+  margin-top: 24px;
+}
+
+.articlePublishedBy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    border-radius: 50%;
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+
+  font-size: 18px;
+  font-weight: 500;
+
+  p {
+    margin: 0;
+  }
+
+  margin-bottom: 48px;
+}
+
+.audioContainer {
+  margin-bottom: 16px;
+  margin-top: 50px;
+}
+
+.audio {
+  width: 100%;
+}
+
+.listenOn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    &:first-child {
+      margin-right: 24px;
+    }
+  }
+
+  p {
+    margin: 0;
+    margin-right: 8px;
+    border-bottom: 2px solid #fff;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.articleExcerpt {
+  margin-bottom: 24px;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.workshopsContainer {
+  margin-top: 16px;
+}
+
+.singleWorkshop {
+  video {
+    border-radius: 4px;
+  }
+}
+
+.articleTime {
+  font-weight: 500;
+  color: #c5b050;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+
+  //   margin-bottom: 0;
+
+  svg {
+    font-size: 18px;
+  }
+}
+
+.articleTitle {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.articleSubtitle {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.imageContainer {
+  position: relative;
+
+  img {
+    // position: relative;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  color: #fff;
+}
+
+.imageContainerText {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  // margin-top: -40%;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 0;
+}
+
+.imageContainerType {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 8px;
+  }
+
+  font-size: 18px;
+}
+
+.imageContainerTitle {
+  color: #fff;
+  margin: 0;
+}
+
+.imageContainerSmall {
+  .imageContainerTitle {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0;
+    font-weight: normal;
+  }
+  
+  .imageContainerType {
+    font-size: 16px;
+  }
+}
+
+.audioContainer {
+  iframe {
+    width: 100%;
+    max-width: 600px;
+
+    #root > div {
+    }
+  }
+
+  @media (min-width: 1024px) {
+    padding-bottom: 0px;
+    margin-bottom: 70px;
+  }
+}

@@ -1,0 +1,75 @@
+body {
+  font-size: 16px;
+  //cound use px and rem, but I am tired.
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'LeMondeCourrierDemi', serif;
+  color: #000;
+}
+
+blockquote {
+  font-family: 'LeMondeCourrierDemiItalic', serif;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+  font-weight: normal;
+
+  @media (min-width: 900px) {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 32px;
+  }
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+
+h2.serif {
+  font-family: 'LeMondeCourrierDemi', serif;
+  font-size: 24px !important;
+  line-height: 24px;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+
+h2.subheading {
+  color: #4a4a4a;
+  letter-spacing: 0;
+
+  @media (min-width: 900px) {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 32px;
+    letter-spacing: 0;
+  }
+}
+
+.article-content {
+  p {
+    font-family: 'LeMondeCourrier', serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.333;
+    margin-bottom: 32px;
+
+    @media (min-width: 900px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}

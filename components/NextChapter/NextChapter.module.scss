@@ -1,0 +1,63 @@
+.workshopsContainer {
+  margin-top: 32px;
+}
+
+.imageContainer {
+  position: relative;
+
+  img {
+    // position: relative;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  color: #fff;
+}
+
+.imageContainerText {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  // margin-top: -40%;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 0;
+}
+
+.imageContainerType {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 8px;
+  }
+
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.imageContainerTitle {
+  color: #fff;
+  margin: 0;
+}
+
+.imageContainerSmall {
+  .imageContainerTitle {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0;
+    font-weight: normal;
+  }
+
+  .imageContainerType {
+    font-size: 16px;
+  }
+}

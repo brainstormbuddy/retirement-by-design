@@ -1,0 +1,36 @@
+.audioPlayerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px 16px 6px 8px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.currentTime {
+  margin-left: 8px;
+}
+
+.audioButton {
+  margin-right: 4px;
+}
+
+.audioPlayerProgressContainer {
+  background-color: #d8d8d8;
+  height: 5px;
+  width: 100%;
+  z-index: 1;
+  margin-left: 16px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.audioPlayerProgress {
+  background-color: #2c3573;
+  width: 20%;
+  height: 5px;
+
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,115 @@
+.CTA {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+  margin-bottom: 40px;
+  border-radius: 4px;
+
+  h1 {
+    margin-top: 0;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  h2 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+
+  text-align: center;
+}
+
+.CTANewsletter {
+  margin-bottom: 0px;
+  margin-top: 56px;
+
+  @media (min-width: 900px) {
+    max-width: 600px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+.articleInfo {
+  display: flex;
+  align-items: center;
+  // justify-content: ;
+  flex-direction: column;
+
+  color: #c5b050;
+
+  svg {
+    color: #c5b050;
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+  }
+
+  text-transform: uppercase;
+
+  p {
+    display: flex;
+    align-items: center;
+    margin: 0 8px 4px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  > div:first-child {
+    display: flex;
+    flex-direction: row;
+  }
+
+  > div:last-child p {
+    margin: 0;
+  }
+}
+
+.CTAForm {
+  margin-top: 32px;
+}
+
+.CTASecure {
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 14px;
+
+  font-family: 'LeMondeCourrierDemiItalic', serif;
+  font-style: italic;
+
+  color: #9b9b9b;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: left;
+
+  svg {
+    color: #9b9b9b;
+    width: 20px;
+    margin-right: 16px;
+  }
+
+  max-width: 272px;
+  margin: 16px auto 0;
+
+  @media (min-width: 900px) {
+    font-size: 16px;
+    max-width: 320px;
+    line-height: 22px;
+    // margin-top: 40px;
+  }
+}
+
+.MuiButtonBase-root.MuiButton-root {
+  font-size: 20px;
+}

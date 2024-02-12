@@ -1,0 +1,34 @@
+.MuiButton-root {
+  font-size: 18px;
+  box-shadow: none;
+
+  &.MuiButton-Contained {
+    text-transform: normal;
+  }
+}
+
+.MuiButtonBase-root.MuiButton-root {
+  font-size: 18px;
+  text-transform: none;
+
+  font-family: 'LeMondeCourrier', serif;
+  font-weight: bold;
+  padding: 8px 30px;
+  letter-spacing: 0;
+
+  box-shadow: none;
+
+  &.btnWide {
+    padding: 12px 40px;
+  }
+
+  @media (min-width: 900px) {
+    font-size: 24px;
+    padding: 10px 45px;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
+}

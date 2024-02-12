@@ -1,0 +1,120 @@
+.navigation {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // justify-content: center;
+
+  padding: 20px 0 0;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 220;
+
+  svg {
+    transition: all 0.3s ease-in-out;
+
+    @media (min-width: 900px) {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    padding: 40px 48px 24px;
+  }
+}
+
+.navigation .navigationLeftNonWhiteBackground svg {
+  color: #fff !important;
+}
+
+.js-nav-menu-open .navigation,
+.js-navigation-open .navigation {
+  svg {
+    color: #fff !important;
+  }
+}
+
+.navigationLeft {
+  display: flex;
+  /* display: block; */
+  justify-content: flex-start;
+  align-items: center;
+  // display: none;
+  flex: 1 1 0;
+}
+
+.navigationCenter {
+  @media (max-width: 1000px) {
+    margin: 0 auto;
+  }
+}
+
+.navigationRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  flex: 1 1 0;
+
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.advisorLink {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  svg {
+    margin-right: 12px;
+  }
+
+  @media (max-width: 1000px) {
+    span {
+      display: none;
+    }
+  }
+}
+
+.js-navigation-open .advisorLink {
+  color: #fff !important;
+}
+
+.logo {
+  cursor: pointer;
+  position: relative;
+  top: 8px;
+  margin-left: 12px;
+
+  @media (max-width: 400px) {
+    width: 150px;
+    margin-left: 0;
+  }
+}
+
+.logoCenter {
+  width: 255px;
+  // position: relative;
+  // left: 16px;
+  cursor: pointer;
+
+  @media (max-width: 900px) {
+    margin: 0 auto;
+    width: 185px;
+  }
+}
+
+.hiddenIconText {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.js-nav-menu-open span.hiddenIconText {
+  color: #fff !important;
+}
